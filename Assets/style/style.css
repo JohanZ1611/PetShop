@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #eeecec;
+    height: 8vh;
+    display: flex;
+}
+.cont-logo{
+    
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cont-logo>b{
+    font-size: 2rem;
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
+
+.cont-search{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cont-search2{
+    background-color: rgba(255, 255, 255, 0.829);
+    border-radius: 20px ;
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 60%;
+}
+.search{
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    width: 30rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.img-lupa{
+    width: 1rem;
+    height: 1rem;
+}
+
+.car{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.cont-ancors{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.cont-ancors>a{
+    text-decoration: none;
+    color: black;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    padding: .2rem 1rem .2rem 1rem;
+}
+
+.cont-ancors>a:hover{
+    background-color: #1BB2E1;
+}
+
+main{
+    min-height: 77vh;
+    background-color: #D9D9D9;
+}
+
+.cont-carrusel{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+.dog-carrusel{
+    width: 20rem;
+}
+
+.cards{
+    height: auto;
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.tam_img_card{
+    height: 15rem !important;
+}
+
+.card-text{
+    color: #1BB2E1;
+}
+
+.stock{
+    border-radius: 20px;
+    color: white;
+    width: 5rem;
+}
+
+.img-heart{
+    width: 1.3rem;
+    height: 1.2rem;
+    
+}
+
+.favorite-btn{
+    position:absolute;
+    top: .2rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cont-stock{
+    padding: 10px; 
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+footer{
+    background-color: violet;
+    height: 15vh;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.details{
+    background-color: #1BB2E1;
+}
