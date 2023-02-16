@@ -16,10 +16,17 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    
+}
+.cont-logo>a{
+    text-decoration: none;
+    color: black;
+    width: 12rem;
+    display: flex;
+    gap: .5rem;
 }
 
-.cont-logo>b{
+.cont-logo>a>b{
     font-size: 2rem;
 }
 
@@ -99,11 +106,26 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20rem;
+    height: auto;
 }
-.dog-carrusel{
-    width: 20rem;
+
+.dadCarousel{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 700px;
+    min-height: 465px;
+    border-radius: 20px;
 }
+.border1{
+    margin: 0 auto;
+    border-radius: 20px;
+    max-width: 700px;
+    max-height: 465px;
+}
+
 
 .cards{
     height: auto;
@@ -111,8 +133,14 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
+
+.card:hover{
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+}
+
 .tam_img_card{
     height: 15rem !important;
 }
@@ -152,12 +180,6 @@ main{
     justify-content: space-between;
 }
 
-
-footer{
-    background-color: violet;
-    height: 15vh;
-}
-
 .green{
     background-color: green;
 }
@@ -166,6 +188,26 @@ footer{
     background-color: red;
 }
 
+.style-mens{
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.style-mens>img{
+    width: 6rem;
+    margin-top: 4rem;
+}
+
 .details{
     background-color: #1BB2E1;
 }
+
+
+footer{
+    background-color: violet;
+    height: 15vh;
+}
+
+
+
