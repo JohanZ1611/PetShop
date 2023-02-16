@@ -104,7 +104,6 @@ export function createCarruHome(list, container){
                     </div>
                   </div>
   `
-
 }
 
 export function noEncontrado(container,formulario){
