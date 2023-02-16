@@ -19,7 +19,7 @@ let slideTrack = document.getElementById("slide-track")
 
 let array = ["dog-chow.png","dog-selection.png","dogui.png","kongo.jpg","pedigree.png","proplan.png","royal-canin.png","sabrocitos.png","whiscas.png","dog-chow.png","dog-selection.png","dogui.png","kongo.jpg","pedigree.png","proplan.png","royal-canin.png","sabrocitos.png","whiscas.png"]
 
-//writeSponsors(array, slideTrack)
+writeSponsors(array, slideTrack)
 
 let slide = document.getElementById("slide")
 

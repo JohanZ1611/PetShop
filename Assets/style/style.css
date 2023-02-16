@@ -203,6 +203,43 @@ main{
     background-color: #1BB2E1;
 }
 
+.cont-slider{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: flex;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.slide-track{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 40s linear infinite;
+    align-items: center;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*9));
+    }
+}
+
+.cont-slide{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.cont-slide img{
+    width: 80%;
+    height: 100px;
+}
 
 footer{
     background-color: violet;

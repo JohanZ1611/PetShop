@@ -53,8 +53,8 @@ export function filterProducts(products, value){
 export function writeSponsors(list, container){
     for(let i=0; i<18; i++){
       container.innerHTML+=`
-        <div class="slide">
-          <img src="../images/${list[i]}" alt="">
+        <div class="cont-slide">
+          <img src="../img/${list[i]}" alt="">
         </div>
       `
     }
